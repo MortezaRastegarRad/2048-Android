@@ -17,10 +17,20 @@ public class Splash_screen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                System.out.println("salam");
                 Intent goToPageFirst = new Intent(Splash_screen.this,MainActivity.class);
+                System.out.println("Khobi");
                 startActivity(goToPageFirst);
+                System.out.println("ChKhabar");
+
             }
         },1000);
 
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
 }

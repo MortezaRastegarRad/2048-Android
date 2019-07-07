@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Small_page"/>
+        <activity android:name=".classic_page"/>
         <activity android:name=".Splash_screen">
 
             <intent-filter>

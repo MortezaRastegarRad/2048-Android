@@ -56,13 +56,12 @@
 
 
     <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/images"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
         android:id="@+id/play"
-        />
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/images" />
 
 
 </LinearLayout>

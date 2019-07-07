@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(goToHugeMod);
                         break;
                     case "Small [3*3]":
+                        System.out.println(mod.getText().toString());
                         Intent goToSmallMod = new Intent(MainActivity.this,Small_page.class);
                         startActivity(goToSmallMod);
                         break;
@@ -119,6 +120,13 @@ public class MainActivity extends AppCompatActivity {
         images_mod.add(R.drawable.huge);
         images_mod.add(R.drawable.small);
 
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
 
 }
