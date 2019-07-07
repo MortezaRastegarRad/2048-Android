@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/show_mod"
+        android:layout_width="191dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/classic" />
+
+    <TextView
+        android:id="@+id/mod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Classic [4*4]"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prev_mod"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@drawable/left_mod" />
+
+        <ImageButton
+            android:id="@+id/next_mod"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="135dp"
+            android:background="@drawable/right_mod" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/images"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/play"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffcc66"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="2048"
+        android:fontFamily="sans-serif-black"
+        android:textSize="80dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Create by Morteza Rastegar Rad"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
